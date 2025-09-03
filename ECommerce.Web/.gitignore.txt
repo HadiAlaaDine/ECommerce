@@ -1,0 +1,22 @@
+﻿# Build artifacts
+bin/
+obj/
+.vs/
+
+# User-specific
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Secrets / settings
+*/appsettings.json
+**/secrets.json
+**/UserSecrets/
+
+# Packages (اختياري إذا بتستعمل restore)
+**/packages/
+
+# Uploads/runtime
+wwwroot/uploads/

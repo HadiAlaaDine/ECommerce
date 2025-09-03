@@ -1,0 +1,13 @@
+﻿root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+end_of_line = crlf
+
+[*.cs]
+dotnet_sort_system_directives_first = true
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_expression_bodied_methods = true:suggestion
