@@ -1,4 +1,4 @@
-﻿# Build artifacts
+# Build artifacts
 bin/
 obj/
 .vs/
@@ -18,5 +18,5 @@ obj/
 # Packages (اختياري إذا بتستعمل restore)
 **/packages/
 
-# Uploads/runtime
+# Uploads/runtime files
 wwwroot/uploads/
