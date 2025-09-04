@@ -1,22 +1,49 @@
-# Build artifacts
+# Build outputs
 bin/
 obj/
-.vs/
-
-# User-specific
-*.user
-*.suo
-
-# Logs
+[Bb]uild/
+[Ll]og/
 *.log
 
-# Secrets / settings
-*/appsettings.json
-**/secrets.json
-**/UserSecrets/
+# VS user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Packages (اختياري إذا بتستعمل restore)
-**/packages/
+# Packages (يُفضّل استرجاعها من النوجِت)
+packages/
+# لو بدك تثبتها: احذف هالسطر، بس الأفضل تضل متجاهلة
 
-# Uploads/runtime files
-wwwroot/uploads/
+# IIS / IISExpress
+[Ii][Ii][Ss]Express/
+*.vspscc
+
+# Resharper / Rider / etc.
+_ReSharper*/
+*.DotSettings.user
+.idea/
+*.iml
+
+# Cache / temp
+*.cache
+*.tmp
+*.temp
+*.bak
+
+# Publish artifacts
+publish/
+*.PublishSettings
+
+# Secrets (انتبه!)
+appsettings.*.json
+*.secret.json
+
+# LocalDB / App_Data (لو بتستخدم MDF محلي)
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Crystal Reports temp
+.rpt.preview
+.rpt.temp
